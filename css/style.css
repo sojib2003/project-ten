@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.form-wrapper{
+	width: 100%;
+	background: linear-gradient(to right,#B3FFAE,#C8FFD4);
+	padding-top: 100px;
+}
+.form-box{
+	background: #a79d9d;
+	width: 500px;
+	margin: 0 auto;
+	padding: 64px;
+	border-radius: 10px;
+}
+.form-group{
+	width: 100%;
+	margin-bottom: 16px;
+}
+.d-block{
+	display: block;
+}
+.form-control{
+	padding: 14px;
+	width: 93%;
+	margin: 12px 0px;
+}
+.inline{
+	display: inline-block !important;
+	width: 43%;
+}
+.form-box label{
+	color: black;
+}
+.form-box input:focus:focus{
+	outline-color: royalblue;
+}
+.form-box input:focus::placeholder{
+	color: royalblue;
+}
+.form-box input[type=submit]{
+	padding: 14px 22px;
+	background: royalblue;
+	border: none;
+}
+.password{
+	position: relative;
+}
+.password i{
+	position: absolute;
+	right: 20px;
+	bottom: 25px;
+}
+.email{
+	position: relative;
+}
+.email i{
+position: absolute;
+right: 20px;
+bottom: 25px;
+}
+.social-icon li{
+	list-style: none;
+}
+.social-icon li i{
+	height: 60px;
+	padding: 0 20px;
+	width: 177px;
+	background-color: red;
+	color: white;
+	text-align: left;
+	line-height: 60px;
+	margin-bottom: 4px;
+	font-size: 20px;
+
+}
+.social-icon li i span{
+	margin-left: 20px;
+}
+.one{
+	position: fixed;
+	right: -170px;
+	bottom: 75px;
+	transition: 0.5s;
+
+}
+.two{
+	position: fixed;
+	right: -170px;
+	bottom: 10px;
+	transition: 0.5s;
+}
+.three{
+	position: fixed;
+	right: -170px;
+	bottom: 140px;
+	transition: 0.5
+}
+.four{
+	position: fixed;
+	right: -170px;
+	bottom: 205px;
+	transition: 0.5
+}
+.one:hover{
+	right: 0px;
+	transition: 0.5s;
+}
+.two:hover{
+	right: 0px;
+	transition: 0.5s;
+}
+.three:hover{
+	right: 0px;
+	transition: 0.5s;
+}
+.four:hover{
+		right: 0px;
+	transition: 0.5s;
+}
